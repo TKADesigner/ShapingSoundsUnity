@@ -348,6 +348,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shape: {fileID: 5448043846759510612, guid: 204d52ffcc05de748b6cc96acb6ddcf9, type: 3}
+  shape1: {fileID: 4106265721440730180, guid: a22853f547e4c1b498838082bd2e26ba, type: 3}
+  shape2: {fileID: 5830690399378820394, guid: e09f42dc18203f844816a297c1a591d6, type: 3}
   spawn: {fileID: 778877206}
 --- !u!4 &778877208
 Transform:
