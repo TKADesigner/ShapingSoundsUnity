@@ -7,6 +7,7 @@ public class Shape : MonoBehaviour
 {
     public float speed;
 
+
     Rigidbody2D rb;
     AudioSource aud;
     private float newPlayTimer = 0;
