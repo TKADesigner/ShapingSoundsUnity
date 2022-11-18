@@ -29,18 +29,18 @@ public class Boundaries : MonoBehaviour
     {
         boundaryBottom.position = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width / 2, 0, 0));
         boundaryBottom.position = new Vector3(boundaryBottom.position.x, boundaryBottom.position.y, 0);
-        boundaryBottom.localScale = new Vector3(Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, 0, 0)).x * 2, 1, 1);
+        boundaryBottom.localScale = new Vector3(Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, 0, 0)).x * 2, 0.2f, 1);
 ;
         boundaryTop.position = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width / 2, Screen.height, 0));
         boundaryTop.position = new Vector3(boundaryTop.position.x, boundaryTop.position.y, 0);
-        boundaryTop.localScale = new Vector3(Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, 0, 0)).x * 2, 1, 1);
+        boundaryTop.localScale = new Vector3(Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, 0, 0)).x * 2, 0.2f, 1);
 
         boundaryLeft.position = Camera.main.ScreenToWorldPoint(new Vector3(0, Screen.height / 2, 0));
         boundaryLeft.position = new Vector3(boundaryLeft.position.x, boundaryLeft.position.y, 0);
-        boundaryLeft.localScale = new Vector3(1, Camera.main.ScreenToWorldPoint(new Vector3(0, Screen.height, 0)).y * 2, 1);
+        boundaryLeft.localScale = new Vector3(0.2f, Camera.main.ScreenToWorldPoint(new Vector3(0, Screen.height, 0)).y * 2, 1);
 
         boundaryRight.position = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height / 2, 0));
         boundaryRight.position = new Vector3(boundaryRight.position.x, boundaryRight.position.y, 0);
-        boundaryRight.localScale = new Vector3(1, Camera.main.ScreenToWorldPoint(new Vector3(0, Screen.height, 0)).y * 2, 1);
+        boundaryRight.localScale = new Vector3(0.2f, Camera.main.ScreenToWorldPoint(new Vector3(0, Screen.height, 0)).y * 2, 1);
     }
 }
