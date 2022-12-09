@@ -27,6 +27,7 @@ public class Shape : MonoBehaviour
             aud.Play();
             newPlayTimer = 0;
         }
+        rb.velocity += (new Vector2(Random.Range(0, 0.2f), Random.Range(0, 0.2f))).normalized;
     }
     private void Update()
     {
