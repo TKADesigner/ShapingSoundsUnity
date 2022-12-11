@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 163522794996043288}
   m_Layer: 0
   m_Name: Shape3
-  m_TagString: Untagged
+  m_TagString: shape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -132,9 +132,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: f49bdb08053d83544aa8e1e65d6ce247, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 83d8329428a2c8f41a118a898c669c2e, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 2
   Loop: 0
   Mute: 0
